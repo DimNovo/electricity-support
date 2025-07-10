@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>תמיכה באפליקציה חשבון חשמל</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      direction: rtl;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: right;
+    }
+
+    h1 {
+      color: #0066cc;
+      margin-bottom: 1rem;
+    }
+
+    a.mail-link {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-right: 20px;
+      margin: 1rem 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #121212;
+        color: #eee;
+      }
+      h1 {
+        color: #4dabf7;
+      }
+      a.mail-link {
+        color: #4dabf7;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ברוכים הבאים לתמיכה של חשבון חשמל</h1>
+
+    <p>נתקלתם בבעיה, שאלה או באג? אנחנו כאן כדי לעזור.</p>
+    <p>שלחו לנו דוא״ל לכתובת:
+      <a href="mailto:elect.acc.supp.xyz@gmail.com" class="mail-link">elect.acc.supp.xyz@gmail.com</a>
+    </p>
+
+    <h2>שאלות נפוצות</h2>
+    <ul>
+      <li>איך ליצור ולשמור חשבון חדש?</li>
+      <li>איך רואים את הגרפים?</li>
+      <li>האם האפליקציה שומרת נתונים בענן?</li>
+      <li>איך לסנכרן בין מכשירים?</li>
+    </ul>
+
+    <p>נעדכן עמוד זה עם פתרונות והנחיות בהמשך.</p>
+  </div>
+</body>
+</html>
